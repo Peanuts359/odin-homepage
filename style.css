@@ -1,0 +1,33 @@
+@font-face {
+    font-family: main;
+    src: url(assets/IndieFlower-Regular.ttf);
+}
+
+@font-face {
+    font-family: text-wall;
+    src: url(assets/LilitaOne-Regular.ttf);
+}
+
+:root {
+    --edges: #0077B6;
+    --main: #90E0EF;
+    --cards: #0077B6;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: main;
+    box-sizing: border-box;
+}
+
+svg {
+    width: calc(min(30px, 16%));
+}
+
+.card > svg {
+    width: calc(min(25px, 13.5%));
+}
+
+.links {
+    font-size: calc(max(25px, 16%));
+}
